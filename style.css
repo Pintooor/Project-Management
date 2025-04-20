@@ -56,10 +56,9 @@
 }
 
 .formElementRow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
   width: 100%;
 }
 
@@ -208,6 +207,7 @@ table {
   }
 
   .formElementRow {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
